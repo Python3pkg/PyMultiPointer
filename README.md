@@ -3,7 +3,11 @@ It's a way to create multidimensional pointers
 
 ## Installation
 Installation is easy.
-Just download the repository and start `setup.py` with the parameter `install` as with every other module
+Just do
+```bash
+pip install multipointer
+```
+Alternatively you can download the repository and start `setup.py` with the parameter `install` as with every other module
 
 ## How to use it
 Import it:
