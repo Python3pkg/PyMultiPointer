@@ -55,16 +55,3 @@ class zip(builtins.zip):
 
 def index(obj, *keys):
     return MultiPointer.index(obj, *keys)
-
-
-
-if __name__ == "__main__":
-
-    d = {
-        "hi": {
-            "okay": {
-                "no": (0, 1, 2, 3)
-            }
-        }
-    }
-    print(index(d, "hi", "okay", "no", 3))
